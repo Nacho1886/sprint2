@@ -1,7 +1,18 @@
+// body {
+//   max-width: 1200px;
+// }
+
 $theme-colors: (
   "primary":    #5265E1,
   "secondary":  #FA5959,
 );
+
+.figureForm {
+  background-color: #5265E1;
+  width: auto;
+  height: auto;
+  border-radius: 100px 0 0 100px;
+}
 
 @import "navbar";
 @import "../node_modules/bootstrap/scss/bootstrap"
