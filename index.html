@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold">
             <div class="container-fluid m-2">
                 <a class="navbar-brand" href="#"><img src="Recursos projecte sprint 2\Imagenes\logo-bookmark.svg"
                         alt="logo"></a>
@@ -36,13 +36,90 @@
                 </div>
             </div>
         </nav>
-        <div class="mainContain">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col"></div>
+    </header>
+
+    <section class="mainContain container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-12">
+                <div class="col-12 col-lg-4">
+                    <h2>Features</h2>
+                    <p>
+                        Our aim is to make it quick and easy for you to acces your favourite webstites. Your bookmarks
+                        sync between your devices so you can acces them on go.
+                    </p>
+                </div>
+            </div>
+            <ul class="nav nav-tabs flex-column flex-lg-row mb-3 justify-content-center col-12" id="myTab"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Simple
+                        Bookmarking</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Speedy
+                        Searching</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Easy
+                        Sharing</button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade row show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="col-12 col-lg-5">
+                        <img src="Recursos projecte sprint 2\Imagenes\illustration-features-tab-1.svg" alt="tab-1">
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-lg-5">
+                        <h2>Bookmark in one click</h2>
+                        <p>
+                            Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+                            complete control over how you manage your favourite sites.
+                        </p>
+                        <button>More info</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade row" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="col-12 col-lg-5">
+                        <img src="Recursos projecte sprint 2\Imagenes\illustration-features-tab-2.svg" alt="tab-2">
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-lg-5">
+                        <h2>Intelligent search</h2>
+                        <p>
+                            Our powerful search feature will help you find saved sites in no time at all. No need to
+                            trawl throught all of your bookmarks.
+                        </p>
+                        <button>More info</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade row" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <div class="col-12 col-lg-5">
+                        <img src="Recursos projecte sprint 2\Imagenes\illustration-features-tab-3.svg" alt="tab-3">
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-lg-5">
+                        <h2>Share your bookmarks</h2>
+                        <p>
+                            Easily share your bookmarks and collections with others. Create a shareable link that you
+                            can send at the click of a button.
+                        </p>
+                        <button>More info</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+    </section>
+
     <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </body>
 

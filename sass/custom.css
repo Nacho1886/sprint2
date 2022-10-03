@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body > * {
+  text-align: center;
+  /* justify-content: center; */
+}
+
 .btn-outline-danger {
   --bs-btn-color: #dc3545!important;
   --bs-btn-border-color: #dc3545!important;
