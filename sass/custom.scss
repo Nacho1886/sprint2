@@ -18,6 +18,12 @@ body > * {
   height: auto;
   border-radius: 100px 0 0 100px;
 }
+.figureForm2 {
+  background-color: #5265E1;
+  width: auto;
+  height: auto;
+  border-radius: 0 100px 100px 0;
+}
 
 @import "navbar";
 @import "../node_modules/bootstrap/scss/bootstrap"
