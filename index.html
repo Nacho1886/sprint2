@@ -53,8 +53,9 @@
                 <button class="btn btn-danger">Get it on Firefox</button>
             </div>
         </article>
-        <article class="col-12">
-            <div class="col-12 w-50">
+        <article class="row">
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-6">
                 <h2>Features</h2>
                 <p>
                     Our aim is to make it quick and easy for you to acces your favourite webstites. Your
@@ -62,6 +63,7 @@
                     sync between your devices so you can acces them on go.
                 </p>
             </div>
+            <div class="col-md-3"></div>
         </article>
         <ul class="nav nav-tabs flex-column flex-lg-row mb-3 justify-content-center col-12" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -148,20 +150,22 @@
                 </div>
             </div>
         </article>
-        <article class="col-12">
-            <div class="col-12 w-50">
+        <article class="row">
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-6">
                 <h2>Download the extension</h2>
                 <p>
                     We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like
                     us to prioritize.
                 </p>
             </div>
+            <div class="col-md-3"></div>
         </article>
         <article class="row">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 mb-5 align-self-start">
-                        <img class="img-fluid w-50 my-5 align-self-center"
+                <div class="row">
+                    <div class="card h-100 align-self-start">
+                        <img class="img-fluid my-5 align-self-center"
                             src="recursos_projecte_sprint_2\Imagenes\logo-chrome.svg" class="card-img-top" alt="chrome">
                         <div class="card-body">
                             <h5 class="card-title">Add to Chrome</h5>
@@ -172,7 +176,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 align-self-center">
-                        <img class="img-fluid w-50 my-5 align-self-center"
+                        <img class="img-fluid my-5 align-self-center"
                             src="recursos_projecte_sprint_2\Imagenes\logo-firefox.svg" class="card-img-top"
                             alt="firefox">
                         <div class="card-body">
@@ -184,7 +188,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 align-self-end">
-                        <img class="img-fluid w-50 my-5 align-self-center"
+                        <img class="img-fluid my-5 align-self-center"
                             src="recursos_projecte_sprint_2\Imagenes\logo-opera.svg" class="card-img-top" alt="opera">
                         <div class="card-body">
                             <h5 class="card-title">Add to Opera</h5>
@@ -196,8 +200,9 @@
             </div>
         </article>
         <article class="row">
-            <div class="col-12">
-                <div class="col-12">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-12 col-md-6">
                     <h2>Frequently Asked Questions</h2>
                     <p>
                         Here are some of our FAQs. If you have any other questions you'd like answered please feel free
@@ -205,6 +210,7 @@
                         email us.
                     </p>
                 </div>
+                <div class="col-md-3"></div>
             </div>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -272,20 +278,56 @@
                             Rerum reprehenderit voluptatibus voluptatem id amet.</div>
                     </div>
                 </div>
+                <button class="btn btn-primary">More Info</button>
             </div>
-            <button class="btn btn-primary">More Info</button>
         </article>
     </section>
-    <summary class="row">
-        <div></div>
-        <div></div>
-        <div>
-            <input type="email" placeholder="Enter your email adress" name="" id="">
-            <button class="btn btn-secondary" type="submit">Contact Us</button>
+    <summary class="row vw-100 bg-primary">
+        <div class="col-md-3"></div>
+        <div class="row col-md-6 p-5">
+            <div class="text-white fs-6 fw-bold">35.000+ ALREADY JOINED</div>
+            <h2 class="text-white">Stay up-to-date with what we're doing</h2>
+            <div class="container">
+                <form class="row g-3 needs-validation">
+                    <div class="col-md-8">
+                        <input type="email" placeholder="Enter your email adress" class="form-control"
+                            id="validationCustom01" required>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                              </div>
+                    </div>
+                    <button class="btn btn-secondary col-md-4" type="submit">Contact Us</button>
+                </form>
+            </div>
         </div>
+        <div class="col-md-3"></div>
     </summary>
     <footer class="row">
-
+        <nav class="navbar navbar-expand-md navbar-light bg-light fw-bold">
+            <div class="container-fluid m-2">
+                <a class="navbar-brand" href="#"><img class="img-fluid"
+                        src="recursos_projecte_sprint_2\Imagenes\logo-bookmark.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-secondary" type="submit">LOGIN</button>
+                </div>
+            </div>
+        </nav>
     </footer>
     <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </body>
