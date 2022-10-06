@@ -38,8 +38,18 @@ body > * {
   background-color: #242a46;
 }
 
-.colorLogo {
-  color: white !important;
+.colorWhite {
+  text-decoration: none;
+  color: white;
+}
+
+.colorWhite:hover {
+  text-decoration: none;
+  color: #FA5959;
+}
+
+.svgHover:hover {
+  fill: #FA5959;
 }
 
 /*!
