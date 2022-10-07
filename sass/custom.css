@@ -31,8 +31,9 @@ body > * {
   color: #FA5959;
 }
 
-.svgHover:hover {
+svg:hover path {
   fill: #FA5959;
+  transition: all ease 0.3s;
 }
 
 /*!
