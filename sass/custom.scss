@@ -1,6 +1,3 @@
-// body {
-//   max-width: 1200px;
-// }
 
 $primary: #5265E1;
 $secondary: #FA5959;
@@ -14,42 +11,12 @@ body > * {
   --bs-bg-opacity: 0!important;
 }
 
-.figureForm {
-  background-color: $primary;
-  width: auto;
-  height: auto;
-  border-radius: 100px 0 0 100px;
-}
-.figureForm2 {
-  background-color: $primary;
-  width: auto;
-  height: auto;
-  border-radius: 0 100px 100px 0;
-}
 
-nav-tabs {
-  border: 0px;
-}
-
-.nav-tabs {
-  --bs-nav-tabs-border-width: 0px!important;
-}
-
-.hoverNav {
-  border: 0px;
-}
-
-.hoverNav:hover {
-  border-bottom:  solid 3px $secondary;
-}
-
-.btn-light {
-  --bs-btn-hover-bg: #fff!important;
-  --bs-btn-hover-border-color: black!important;
-  --bs-btn-active-bg: #fff!important;
-}
-
-
-@import "main-menu";
+@import "main-contain";
+@import "botton-blue";
+@import "botton-white";
+@import "botton-red";
+@import "features";
+@import "header-menu";
 @import "footer-menu";
 @import "../node_modules/bootstrap/scss/bootstrap"

@@ -14,11 +14,25 @@ body > * {
   border-radius: 100px 0 0 100px;
 }
 
-.figureForm2 {
-  background-color: #5265E1;
-  width: auto;
-  height: auto;
-  border-radius: 0 100px 100px 0;
+.blueBotton:hover {
+  background-color: #fff !important;
+  color: #5265e0 !important;
+}
+
+.btn-light {
+  --bs-btn-hover-bg: #fff!important;
+  --bs-btn-hover-border-color: black!important;
+  --bs-btn-active-bg: #fff!important;
+  box-shadow: 0 3px 3px rgba(22, 22, 21, 0.237);
+}
+
+.redBotton:hover {
+  background-color: #fff !important;
+  color: #FA5959 !important;
+}
+
+.redBotton {
+  color: #fff !important;
 }
 
 nav-tabs {
@@ -37,10 +51,12 @@ nav-tabs {
   border-bottom: solid 3px #FA5959;
 }
 
-.btn-light {
-  --bs-btn-hover-bg: #fff!important;
-  --bs-btn-hover-border-color: black!important;
-  --bs-btn-active-bg: #fff!important;
+.figureForm2 {
+  background-color: #5265E1;
+  width: auto;
+  height: 100%;
+  position: relative;
+  border-radius: 0 200px 200px 0;
 }
 
 .colorFooter {
@@ -60,6 +76,14 @@ nav-tabs {
 svg:hover path {
   fill: #FA5959;
   transition: all ease 0.3s;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background-image: url("../recursos_projecte_sprint_2/Imagenes/icon-error.svg") !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #fa5959;
 }
 
 /*!

@@ -15,4 +15,12 @@
 svg:hover path {
     fill: #FA5959;
     transition: all ease 0.3s;
-  }
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background-image: url("../recursos_projecte_sprint_2/Imagenes/icon-error.svg") !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #fa5959;
+}
