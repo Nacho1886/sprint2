@@ -1,25 +1,28 @@
+nav-tabs {
+  border: 0px;
+}
 
-  nav-tabs {
-    border: 0px;
-  }
-  
-  .nav-tabs {
-    --bs-nav-tabs-border-width: 0px!important;
-  }
-  
-  .hoverNav {
-    border: 0px;
-  }
-  
-  .hoverNav:hover {
-    border-bottom: solid 3px #FA5959;
-  }
-  .figureForm2 {
-    background-color: $primary;
-    width: auto;
-    height: 100%;
-    position: relative;
-    // margin-top: 200px;
-    border-radius: 0 200px 200px 0;
-  }
-  
+.nav-tabs {
+  --bs-nav-tabs-border-width: 0px !important;
+}
+
+.hoverNav {
+  border: 0px;
+}
+
+.nav-link.active {
+  color: black !important;
+  border-bottom: 4px solid #fa5959 !important;
+  padding-bottom: 12px !important;
+}
+
+.figureForm2 {
+  background-color: $primary;
+  width: 88%;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
+}

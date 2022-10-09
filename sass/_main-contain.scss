@@ -1,6 +1,33 @@
+// .containerFigure {
+//   position: absolute;
+//   width: 90%;
+//   height: 100%;
+
+// }
+
+
 .figureForm {
-    background-color: $primary;
-    width: auto;
-    height: auto;
-    border-radius: 100px 0 0 100px;
-  }
+  background-color: $primary;
+  width: 88%;
+  height: 70%;
+    left: 15%;
+  top: 30%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -3;
+}
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // X-Large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+// // XX-Large devices (larger desktops, 1400px and up)
+// @media (min-width: 1400px) { ... }

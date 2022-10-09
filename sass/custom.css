@@ -7,73 +7,60 @@ body > * {
   --bs-bg-opacity: 0!important;
 }
 
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+
+.accordion-button::after {
+  background-image: url("../recursos_projecte_sprint_2/Imagenes/icon-arrow.svg") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: invert(47%) sepia(95%) saturate(1098%) hue-rotate(324deg) brightness(97%) contrast(102%);
+}
+
 .cardsRow {
-  position: relative;
-  width: 992px;
-  height: 460px;
+  margin-bottom: 100px;
 }
 .cardsRow > div:nth-child(1) {
-  position: absolute;
-  top: 0%;
-  left: 10%;
+  position: relative;
 }
 .cardsRow > div:nth-child(2) {
-  position: absolute;
-  top: 5%;
-  left: 376px;
+  position: relative;
+  top: 40px;
 }
 .cardsRow > div:nth-child(3) {
-  position: absolute;
-  top: 10%;
-  right: 10%;
+  position: relative;
+  top: 80px;
 }
 
-#cardsContainer {
-  max-width: 292px;
-}
-
-/* Cards */
 .chromeBrowser {
-  width: 240px !important;
-  height: 330px !important;
-}
-.chromeBrowser div:first-child img {
-  height: 90px;
-}
-.chromeBrowser .btn {
-  width: 90%;
-  border-radius: 3px !important;
+  max-width: 250px !important;
 }
 
 .firefoxBrowser {
-  width: 240px !important;
-  height: 330px !important;
-}
-.firefoxBrowser div:first-child img {
-  height: 90px;
-}
-.firefoxBrowser .btn {
-  width: 90%;
-  border-radius: 3px !important;
+  max-width: 250px !important;
 }
 
 .operaBrowser {
-  width: 240px !important;
-  height: 330px !important;
-}
-.operaBrowser div:first-child img {
-  height: 90px;
-}
-.operaBrowser .btn {
-  width: 90%;
-  border-radius: 3px !important;
+  max-width: 250px !important;
 }
 
 .figureForm {
   background-color: #5265E1;
-  width: auto;
-  height: auto;
-  border-radius: 100px 0 0 100px;
+  width: 88%;
+  height: 70%;
+  left: 15%;
+  top: 30%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -3;
 }
 
 .blueBotton:hover {
@@ -107,23 +94,32 @@ nav-tabs {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: 0px!important;
+  --bs-nav-tabs-border-width: 0px !important;
 }
 
 .hoverNav {
   border: 0px;
 }
 
-.hoverNav:hover {
-  border-bottom: solid 3px #FA5959;
+.nav-link.active {
+  color: black !important;
+  border-bottom: 4px solid #fa5959 !important;
+  padding-bottom: 12px !important;
 }
 
 .figureForm2 {
   background-color: #5265E1;
-  width: auto;
-  height: 100%;
-  position: relative;
+  width: 88%;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
   border-radius: 0 200px 200px 0;
+}
+
+.colorRed:hover {
+  color: #FA5959 !important;
 }
 
 .colorFooter {

@@ -23,13 +23,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 row align-items-center">
                         <li class="nav-item col-3">
-                            <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+                            <a class="nav-link colorRed" aria-current="page" href="#">FEATURES</a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link" href="#">PRICING</a>
+                            <a class="nav-link colorRed" href="#">PRICING</a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link colorRed" href="#">CONTACT</a>
                         </li>
                         <li class="nav-item col-3">
                             <button class="btn btn-secondary redBotton" type="submit">LOGIN</button>
@@ -40,22 +40,25 @@
         </nav>
     </header>
     <section class="container">
-        <article class="row">
+        <article class="row justify-content-center mt-5">
             <div class="text-center text-lg-start col-12 col-lg-6 order-lg-last">
-                <div class="primary  figureForm ">
+                <div class="primary mb-4 position-relative">
+                    <div class="figureForm"></div>
                     <img class="img-fluid" src="recursos_projecte_sprint_2/Imagenes/illustration-hero.svg" alt="hero">
                 </div>
             </div>
-            <div class="text-center text-lg-start col-12 col-lg-6 order-lg-first">
+            <div class="row g-4 g-lg-3 text-center text-lg-start col-12 col-md-6 my-4 d-flex flex-column justify-content-center align-items-center order-lg-first">
                 <h1>A Simple Bookmark Manager</h1>
-                <p class="text-secondary">A clean and simple interface to organize your favourite
+                <p>A clean and simple interface to organize your favourite
                     websites. Open a new browser tab and see your sites load
                     instantly. Try it for free.</p>
-                <button class="btn btn-primary blueBotton">Get it on Chrome</button>
-                <button class="btn btn-light">Get it on Firefox</button>
+                    <div class="justify-content-start">
+                        <button class="btn btn-primary blueBotton">Get it on Chrome</button>
+                        <button class="btn btn-light">Get it on Firefox</button>
+                    </div>
             </div>
         </article>
-        <article class="row justify-content-center my-5">
+        <article class="row g-3 justify-content-center my-5">
             <div class="col-12 col-md-6 my-4">
                 <h2>Features</h2>
                 <p>
@@ -67,17 +70,17 @@
             <ul class="nav border-0 nav-tabs flex-column flex-md-row mb-3 mb-5 justify-content-center align-items-center col-12"
                 id="myTab" role="tablist">
                 <li class="nav-item hoverNav" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    <button class="nav-link colorRed active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
                         type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Simple
                         Bookmarking</button>
                 </li>
                 <li class="nav-item hoverNav" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    <button class="nav-link colorRed" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
                         type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Speedy
                         Searching</button>
                 </li>
                 <li class="nav-item hoverNav" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    <button class="nav-link colorRed" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
                         type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Easy
                         Sharing</button>
                 </li>
@@ -88,15 +91,16 @@
                     tabindex="0">
                     <div class="row">
                         <div class="col-12 col-lg-6 justify-content-end">
-                            <div class="primary figureForm2 align-items-end">
+                            <div class="primary position-relative align-items-end">
+                                <div class="figureForm2"></div>
                                 <img class="img-fluid"
                                     src="recursos_projecte_sprint_2\Imagenes\illustration-features-tab-1.svg"
                                     alt="tab-1">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <div class="col-12 col-lg-6 mt-5 d-flex flex-column justify-content-center text-lg-start">
                             <div>
-                                <h2>Bookmark in one click</h2>
+                                <h2 class="mt-5">Bookmark in one click</h2>
                                 <p>
                                     Organize your bookmarks however you like. Our simple drag-and-drop interface
                                     gives
@@ -112,15 +116,16 @@
                     tabindex="0">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <div class="primary  figureForm2 align-items-ce">
+                            <div class="primary position-relative align-items-end">
+                                <div class="figureForm2"></div>
                                 <img class="img-fluid"
                                     src="recursos_projecte_sprint_2\Imagenes\illustration-features-tab-2.svg"
                                     alt="tab-2">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <div class="col-12 col-lg-6 mt-5 d-flex flex-column justify-content-center text-lg-start">
                             <div>
-                                <h2>Intelligent search</h2>
+                                <h2 class="mt-5">Intelligent search</h2>
                                 <p>
                                     Our powerful search feature will help you find saved sites in no time at all. No
                                     need to
@@ -135,15 +140,16 @@
                     tabindex="0">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <div class="primary  figureForm2">
+                            <div class="primary position-relative align-items-end">
+                                <div class="figureForm2"></div>
                                 <img class="img-fluid"
                                     src="recursos_projecte_sprint_2\Imagenes\illustration-features-tab-3.svg"
                                     alt="tab-3">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                        <div class="col-12 col-lg-6 mt-5 d-flex flex-column justify-content-center text-lg-start">
                             <div>
-                                <h2>Share your bookmarks</h2>
+                                <h2 class="mt-5">Share your bookmarks</h2>
                                 <p>
                                     Easily share your bookmarks and collections with others. Create a shareable link
                                     that you
@@ -158,7 +164,7 @@
         </article>
         <article class="row">
             <div class="col-md-3"></div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-5">
                 <h2>Download the extension</h2>
                 <p>
                     We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like
@@ -167,13 +173,13 @@
             </div>
             <div class="col-md-3"></div>
         </article>
-        <article class="row justify-content-center row-cols-md-3 ">
-            <div class="row m-0">
+        <article class="row cardsRow justify-content-center row-cols-md-3 align-self-center">
+            <div class="row justify-content-center mx-0 mt-5 mt-lg-0">
               <div class="chromeBrowser col-12 card pt-5 pb-2 shadow rounded border-0">
-                <div class="mt-2 d-flex flex-column align-items-center">
-                  <img src="recursos_projecte_sprint_2\Imagenes\logo-chrome.svg" class="card-img-top px-2 w-50" alt="Chrome (logo)" />
+                <div class="mt-2 align-items-center">
+                  <img src="recursos_projecte_sprint_2\Imagenes\logo-chrome.svg" class="card-img-top px-2 w-auto" alt="Chrome (logo)" />
                 </div>
-                <div class="card-body mt-3 px-0 d-flex flex-column align-items-center">
+                <div class="card-body mt-3 px-0 align-items-center">
                   <h5 class="card-title mb-3">Add to Chrome</h5>
                   <p class="card-subtitle mb-4 pb-2 text-grey">
                     Minimum version 62
@@ -184,12 +190,12 @@
               </div>
             </div>
     
-            <div class="row mx-0 mt-5 mt-lg-0">
+            <div class="row justify-content-center mx-0 mt-5 mt-lg-0">
               <div class="firefoxBrowser col-12 card pt-5 pb-2 shadow rounded border-0">
-                <div class="mt-2 d-flex flex-column align-items-center">
-                  <img src="recursos_projecte_sprint_2\Imagenes\logo-firefox.svg" class="card-img-top px-2 w-50" alt="Firefox (logo)" />
+                <div class="mt-2 align-items-center">
+                  <img src="recursos_projecte_sprint_2\Imagenes\logo-firefox.svg" class="card-img-top px-2 w-auto" alt="Firefox (logo)" />
                 </div>
-                <div class="card-body mt-3 px-0 d-flex flex-column align-items-center">
+                <div class="card-body mt-3 px-0 align-items-center">
                   <h5 class="card-title mb-3">Add to Firefox</h5>
                   <p class="card-subtitle mb-4 pb-2 text-grey">
                     Minimum version 55
@@ -200,12 +206,12 @@
               </div>
             </div>
     
-            <div class="row mx-0 mt-5 mt-lg-0">
+            <div class="row justify-content-center mx-0 mt-5 mt-lg-0">
               <div class="operaBrowser col-12 card pt-5 pb-2 shadow rounded border-0">
-                <div class="mt-2 d-flex flex-column align-items-center">
-                  <img src="recursos_projecte_sprint_2\Imagenes\logo-opera.svg" class="card-img-top px-2 w-50" alt="Opera (logo)" />
+                <div class="mt-2 align-items-center">
+                  <img src="recursos_projecte_sprint_2\Imagenes\logo-opera.svg" class="card-img-top px-2 w-auto" alt="Opera (logo)" />
                 </div>
-                <div class="card-body mt-3 px-0 d-flex flex-column align-items-center">
+                <div class="card-body mt-3 px-0 align-items-center">
                   <h5 class="card-title mb-3">Add to Opera</h5>
                   <p class="card-subtitle mb-4 pb-2 text-grey">
                     Minimum version 46
@@ -253,7 +259,7 @@
         </article> -->
         <article class="container">
             <div class="row mt-5 justify-content-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 mt-5">
                     <h2>Frequently Asked Questions</h2>
                     <p>
                         Here are some of our FAQs. If you have any other questions you'd like answered please feel free
@@ -348,8 +354,8 @@
                 <div class="container">
                     <form class="row g-4 mt-1 needs-validation" novalidate>
                         <div class="col-lg-9">
-                            <input type="text" placeholder="Enter your email adress" class="form-control w-100"
-                                id="validationCustom01" required>
+                            <input type="email" placeholder="Enter your email adress" class="form-control w-100"
+                                id="InputEmail1" required>
                             <div class="invalid-feedback fst-italic bg-secondary rounded-bottom">
                                 Whoops, make sure it's an email
                             </div>
@@ -387,27 +393,7 @@
             </nav>
         </div>
     </footer>
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
-
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
+    <script src="js/script.js"></script>
     <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </body>
 

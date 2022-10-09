@@ -1,69 +1,32 @@
 .cardsRow {
-    position: relative;
-    width: 992px;
-    height: 460px;
+    margin-bottom: 100px;
 
     &>div:nth-child(1) {
-      position: absolute;
-      top: 0%;
-      left: 10%;
+      position: relative;
     }
 
     &>div:nth-child(2) {
-      position: absolute;
-      top: 5%;
-      left: 376px;
+      position: relative;
+      top: 40px;
     }
 
     &>div:nth-child(3) {
-      position: absolute;
-      top: 10%;
-      right: 10%;
+      position: relative;
+      top: 80px;
     }
   }
 
-#cardsContainer {
-    max-width: 292px;
-}
-/* Cards */
 .chromeBrowser {
-    width: 240px!important;
-    height: 330px!important;
+    max-width: 250px!important;
 
-    & div:first-child img {
-        height: 90px;
-    }
-
-    & .btn {
-        width: 90%;
-        border-radius: 3px!important;
-    }
 }
 
 .firefoxBrowser {
-    width: 240px!important;
-    height: 330px!important;
+    max-width: 250px!important;
 
-    & div:first-child img {
-        height: 90px;
-    }
-
-    & .btn {
-        width: 90%;
-        border-radius: 3px!important;
-    }
 }
 
 .operaBrowser {
-    width: 240px!important;
-    height: 330px!important;
+    max-width: 250px!important;
 
-    & div:first-child img {
-        height: 90px;
-    }
-
-    & .btn {
-        width: 90%;
-        border-radius: 3px!important;
-    }
 }
