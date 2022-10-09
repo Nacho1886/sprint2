@@ -7,6 +7,68 @@ body > * {
   --bs-bg-opacity: 0!important;
 }
 
+.cardsRow {
+  position: relative;
+  width: 992px;
+  height: 460px;
+}
+.cardsRow > div:nth-child(1) {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+}
+.cardsRow > div:nth-child(2) {
+  position: absolute;
+  top: 5%;
+  left: 376px;
+}
+.cardsRow > div:nth-child(3) {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+#cardsContainer {
+  max-width: 292px;
+}
+
+/* Cards */
+.chromeBrowser {
+  width: 240px !important;
+  height: 330px !important;
+}
+.chromeBrowser div:first-child img {
+  height: 90px;
+}
+.chromeBrowser .btn {
+  width: 90%;
+  border-radius: 3px !important;
+}
+
+.firefoxBrowser {
+  width: 240px !important;
+  height: 330px !important;
+}
+.firefoxBrowser div:first-child img {
+  height: 90px;
+}
+.firefoxBrowser .btn {
+  width: 90%;
+  border-radius: 3px !important;
+}
+
+.operaBrowser {
+  width: 240px !important;
+  height: 330px !important;
+}
+.operaBrowser div:first-child img {
+  height: 90px;
+}
+.operaBrowser .btn {
+  width: 90%;
+  border-radius: 3px !important;
+}
+
 .figureForm {
   background-color: #5265E1;
   width: auto;
@@ -17,6 +79,10 @@ body > * {
 .blueBotton:hover {
   background-color: #fff !important;
   color: #5265e0 !important;
+}
+
+.blueBotton {
+  box-shadow: 0 3px 3px rgba(22, 22, 21, 0.237);
 }
 
 .btn-light {
@@ -33,6 +99,7 @@ body > * {
 
 .redBotton {
   color: #fff !important;
+  box-shadow: 0 3px 3px rgba(22, 22, 21, 0.237);
 }
 
 nav-tabs {
