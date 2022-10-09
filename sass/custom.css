@@ -7,16 +7,69 @@ body > * {
   --bs-bg-opacity: 0!important;
 }
 
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+
+.accordion-button::after {
+  background-image: url("../recursos_projecte_sprint_2/Imagenes/icon-arrow.svg") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: invert(47%) sepia(95%) saturate(1098%) hue-rotate(324deg) brightness(97%) contrast(102%);
+}
+
+.cardsRow {
+  margin-bottom: 100px;
+}
+.cardsRow > div:nth-child(1) {
+  position: relative;
+}
+.cardsRow > div:nth-child(2) {
+  position: relative;
+  top: 40px;
+}
+.cardsRow > div:nth-child(3) {
+  position: relative;
+  top: 80px;
+}
+
+.chromeBrowser {
+  max-width: 250px !important;
+}
+
+.firefoxBrowser {
+  max-width: 250px !important;
+}
+
+.operaBrowser {
+  max-width: 250px !important;
+}
+
 .figureForm {
   background-color: #5265E1;
-  width: auto;
-  height: auto;
-  border-radius: 100px 0 0 100px;
+  width: 88%;
+  height: 70%;
+  left: 15%;
+  top: 30%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -3;
 }
 
 .blueBotton:hover {
   background-color: #fff !important;
   color: #5265e0 !important;
+}
+
+.blueBotton {
+  box-shadow: 0 3px 3px rgba(22, 22, 21, 0.237);
 }
 
 .btn-light {
@@ -33,6 +86,7 @@ body > * {
 
 .redBotton {
   color: #fff !important;
+  box-shadow: 0 3px 3px rgba(22, 22, 21, 0.237);
 }
 
 nav-tabs {
@@ -40,23 +94,32 @@ nav-tabs {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: 0px!important;
+  --bs-nav-tabs-border-width: 0px !important;
 }
 
 .hoverNav {
   border: 0px;
 }
 
-.hoverNav:hover {
-  border-bottom: solid 3px #FA5959;
+.nav-link.active {
+  color: black !important;
+  border-bottom: 4px solid #fa5959 !important;
+  padding-bottom: 12px !important;
 }
 
 .figureForm2 {
   background-color: #5265E1;
-  width: auto;
-  height: 100%;
-  position: relative;
+  width: 88%;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
   border-radius: 0 200px 200px 0;
+}
+
+.colorRed:hover {
+  color: #FA5959 !important;
 }
 
 .colorFooter {
