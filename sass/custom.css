@@ -3,6 +3,10 @@ body > * {
   text-align: center;
 }
 
+.mainContain {
+  overflow-x: hidden;
+}
+
 .bg-light {
   --bs-bg-opacity: 0!important;
 }
@@ -54,7 +58,7 @@ body > * {
 
 .figureForm {
   background-color: #5265E1;
-  width: 88%;
+  width: 100rem;
   height: 70%;
   left: 15%;
   top: 30%;
@@ -109,7 +113,7 @@ nav-tabs {
 
 .figureForm2 {
   background-color: #5265E1;
-  width: 88%;
+  width: 100rem;
   height: 70%;
   right: 15%;
   top: 40%;
@@ -147,6 +151,11 @@ svg:hover path {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-color: #fa5959;
+}
+
+.invalid-feedback {
+  margin-top: 0 !important;
+  color: white !important;
 }
 
 /*!

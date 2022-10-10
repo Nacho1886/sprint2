@@ -6,6 +6,9 @@ $secondary: #FA5959;
 body > * {
   text-align: center;
 }
+.mainContain {
+  overflow-x: hidden;
+}
 
 .bg-light {
   --bs-bg-opacity: 0!important;
